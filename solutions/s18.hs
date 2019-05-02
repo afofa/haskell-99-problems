@@ -1,0 +1,1 @@
+slice list min max = [x | (n,x) <- zip [1,2..] list,  min <= n && n <= max]

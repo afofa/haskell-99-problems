@@ -1,0 +1,1 @@
+dupli x = concatMap (replicate 2) x

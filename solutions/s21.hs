@@ -1,0 +1,1 @@
+insertAt elem list index = (take (index-1) list) ++ [elem] ++ (drop (index-1) list) 
